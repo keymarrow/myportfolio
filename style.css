@@ -1,3 +1,48 @@
-body{
-    margin: 0 auto;
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+p {
+  text-align: center;
+}
+
+div {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  position: absolute;
+  top: 0;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.HIREME {
+  border-color: #c48f00;
+  color: #ffb429;
+}
+
+.HIREME:hover {
+  background-color: #070707;
+  color: orange;
+}
+.DOWNLOADCV {
+  border-color: orange;
+  color: orange;
+}
+.DOWNLOADCV:hover {
+  border-color: orange;
+  background-color: black;
 }
